@@ -1,0 +1,185 @@
+
+
+nav {
+  padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000; 
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.1) ;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 1px;
+  
+  float: right;
+}
+
+li {
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 9px;
+  margin-right: 20px; 
+}
+
+
+ li .nav-link{
+  color:#000; 
+  text-decoration: none;
+  padding: 10;
+  transition: color 0.3s; 
+}
+
+li .nav-link:hover {
+  color: hsl(246, 96%, 51%);
+  text-decoration: underline;
+}
+
+
+#btn {
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: rgb(83, 140, 247);
+  color: #fff;
+  text-align: center;
+}
+
+#btn:hover {
+  background-color: rgb(7, 7, 241);
+  transition: background-color 0.3s; 
+}
+
+#btn #a {
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.logo {
+  height: 10em;
+  position: absolute; 
+  top: 10px;
+  left: 20px; 
+}
+
+
+.title{
+  text-align: center;
+  width: 50%;
+}
+.title h1 {
+  font-family: Arial;
+  margin-top: 5em;
+  margin-left: 3em;
+  font-size: 50px;
+  
+}
+.title h3{
+  font-size: 20px;
+   margin-left: 6em;
+}
+.icon a{
+  margin-left: 1em;
+  font-size: xx-large;
+  color: rgb(83, 140, 247); 
+  transition: color 0.3s;
+}
+.icon a:hover{
+color:hsl(0, 0%, 0%) ;
+}
+footer {
+  position: fixed;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  font-size: 14px; 
+  color: #666; 
+  margin: 5px 0; 
+}
+
+/* dashbord-------------- */
+ul li .admin{
+  color: #000;
+}
+ul li .admin:hover{
+  color: #1f0ff7;
+}
+
+.sidebar {
+  width: 100px;
+  height: 100%; 
+ 
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  padding-top: 60px; 
+  overflow-y: auto; 
+}
+
+#icon:hover{
+  background:none
+}
+
+
+#list  {
+  display: block; 
+  color: #fff;
+  text-decoration: none; 
+  padding: 10px; 
+  transition: 0.6s;
+}
+
+
+#list:hover {
+  background-color: #f8f2f2;
+  text-decoration: none; 
+  border-radius: 7px;
+  color: #000;
+}
+
+.nav-link{
+  color: #000;
+}
+/* -----------Login--------------------------- */
+.login , .register {
+  
+  margin-right: 2em;
+  margin-top: 7em;
+  width: 25%;
+  
+  float: right;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px hsl(0, 0%, 0%);
+  padding: 30px;
+
+}
+.form-group{
+  
+  margin-top: 1px;
+}
+.input-item{
+  margin-top: 1em;
+}
+.input-item .btn{
+  width: 85%;
+ 
+}
+#root{
+  overflow: hidden;
+  height: 500px;
+}
+/* ------------- */
+.table-responsive{
+  margin-top: 10em;
+}
+/* ==================================== */
